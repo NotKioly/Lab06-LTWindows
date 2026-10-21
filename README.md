@@ -9,15 +9,3 @@
 Để nhận giá trị số dòng, số cột cần 2 Property để giữ giá trị nó. Ngoài ra, có thể dùng các 
 tham số (dạng Field) để lưu khoảng cách kích thước, mức canh lề, …
 2.4 Xử lý nút khởi tạo ở form khởi tạo 
-        private void btnKhoiTao_Click(object sender, EventArgs e) 
-        { 
-            int sodong, socot; 
-            if (!int.TryParse(txtSoDong.Text, out sodong)) 
-                sodong = 1; 
-            if (!int.TryParse(txtSoCot.Text, out socot)) 
-                socot = 1; 
-            frmXuat frmX = new frmXuat(sodong, socot); 
-            //canh giữa 
-            frmX.StartPosition = FormStartPosition.CenterScreen; 
-            frmX.ShowDialog();//hiện 
-        } 
