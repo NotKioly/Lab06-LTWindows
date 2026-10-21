@@ -1,12 +1,3 @@
-# Lab 06 – Làm việc với mảng & truyền dữ liệu giữa các form
-
-Bài thực hành môn **Windows Programming with C#** (Lab 06, Ths. Lương Trần Hy Hiến – Khoa CNTT, ĐH Sư phạm TP.HCM).
-
-## Mục tiêu
-
-- Làm việc với mảng (lưới nút theo số dòng × số cột).
-- Truyền dữ liệu giữa các form (từ form nhập liệu sang form xuất).
-
 ## Mô tả chương trình
 
 Chương trình gồm hai form:
